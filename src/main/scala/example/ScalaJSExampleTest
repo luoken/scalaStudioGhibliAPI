@@ -1,0 +1,15 @@
+package example
+
+import utest._
+
+import org.querki.jquery._
+
+object ScalaJSExampleTest extends TestSuite{
+  ScalaJSExample.setupUI()
+
+  def tests = Tests{
+    'HelloWorld - {
+      assert($("p:contains('Hello World')").length == 1)
+    }
+  }
+}
