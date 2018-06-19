@@ -4,7 +4,7 @@ name := "Example"
 
 version := "0.1-SNAPSHOT"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.4"
 
 libraryDependencies += "com.lihaoyi" %%% "scalatags" % "0.6.2"
 libraryDependencies += "com.lihaoyi" %%% "utest" % "0.6.3" % "test"
