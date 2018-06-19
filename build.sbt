@@ -1,4 +1,4 @@
-enablePlugins(ScalaJSPlugin, WorkbenchPlugin)
+enablePlugins(ScalaJSPlugin)
 
 name := "Example"
 
